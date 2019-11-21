@@ -17,6 +17,7 @@ export default class Directory extends Component {
                         title={section.title} 
                         key={section.id}
                         imageUrl={section.imageUrl}
+                        size={section.size}
                         />
                     )
                 })}
